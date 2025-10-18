@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import ProjectList from './components/ProjectList';
+import ProjectList from './components/ProjectList.js';
 import KanbanBoard from './components/KanbanBoard';
 import './index.css';
 
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://task-management-system-using-ai.onrender.com/api';
 
 function App() {
   const [currentView, setCurrentView] = useState('projects');
